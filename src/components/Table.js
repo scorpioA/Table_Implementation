@@ -119,7 +119,7 @@ const Table = () => {
                   {" "}
                   {item.editing ? (
                     <input
-                      type="text"
+                      type="number"
                       value={item.mobileNumber}
                       onChange={(e) =>
                         setValue(
@@ -176,7 +176,7 @@ const Table = () => {
                 <td>
                   {item.editing ? (
                     <input
-                      type="text"
+                      type="number"
                       value={item.age}
                       onChange={(e) =>
                         setValue(
